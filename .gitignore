@@ -1,0 +1,7 @@
+node_modules
+/dist
+/reports
+/apps
+
+# Necessary for pushing to alternative npm registry
+.npmrc
