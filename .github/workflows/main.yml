@@ -16,6 +16,8 @@ jobs:
         with:
           runTests: false
           build: npm run build
+      - name: Run Linting
+        run: npm run lint
       - name: Save build folder
         uses: actions/upload-artifact@v3
         with:

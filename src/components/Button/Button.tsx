@@ -2,7 +2,7 @@ import React from 'react';
 
 export interface ButtonProps {
   children?: React.ReactNode;
-  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
 export const Button: React.FC<ButtonProps> = ({ children, ...props }) => {
